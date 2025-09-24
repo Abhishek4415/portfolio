@@ -7,7 +7,7 @@ export default function navbar() {
     <div>
       <nav className='flex mt-6 ml-10 text-2xl justify-center'>
         <SiCodersrank className='text-amber-200' />
-        <p className='text-[#f7f7f7] italic font-bold '>Abhishek</p>
+        <p className='text-[#f7f7f7] italic font-bold '>Abhishek?Kumar</p>
         <div className=''>
           <ul className='flex gap-5 ml-70 '>
             <li>About</li>
