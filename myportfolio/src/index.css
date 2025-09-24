@@ -1,0 +1,18 @@
+@import "tailwindcss";
+ 
+
+body {
+  /* background: linear-gradient(135deg, #1f1c2c, #928dab); */
+  background-color: #000000;
+
+  /* black */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* ensures full-page fill */
+  background-size: cover;
+  color: white;
+  font-family: Slackey, sans-serif;
+
+
+}
+
