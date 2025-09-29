@@ -37,14 +37,14 @@ export default function about() {
         <br />
         <hr />
 
-        <p className=''>I'm 24 year old, and was born in India'bihar.
+        <p className=''>I'm 21 year old, and was born in India'bihar.
           My expertise spans C++, Java, Python, React, Node.js, and MySQL, enabling me to design and build scalable, user-focused applications.
         </p>
         {/* resume  */}
         <a href="https://drive.google.com/file/d/1F0FOs4Mm5vdPS2OTKMpzPWNAqLu7Tjqa/view?usp=sharing"
         target='_blank'
         rel='nodeopen nodereferrer'
-        className='py-3 px-10 bg-amber-300 ml-100 text-black rounded-4xl text-[18px] hover:bg-amber-50 transition delay-50 '>
+        className='py-3 px-10 bg-amber-300 relative top-5 text-black rounded-4xl text-[18px] hover:bg-amber-50 transition delay-50 '>
             Download CV
         </a>
       </div>
