@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function footer() {
+export default function () {
   return (
-    <div>footer</div>
+    <div></div>
   )
 }

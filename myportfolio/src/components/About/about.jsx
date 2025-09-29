@@ -3,7 +3,7 @@ import { Typewriter } from 'react-simple-typewriter';
 import idcard from "../../assets/idcard/idcard2.png"
 //#585956
 //#ececec
-//#ff5928
+
 //#595351
 export default function about() {
   return (

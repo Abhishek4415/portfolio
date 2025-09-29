@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function experience() {
+export default function () {
   return (
-    <div>experience</div>
+    <div></div>
   )
 }
