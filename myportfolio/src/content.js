@@ -34,9 +34,9 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 // import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // Education Section Logo's
-// import glaLogo from './assets/education_logo/gla_logo.png';
-// import bsaLogo from './assets/education_logo/bsa_logo.png';
-// import vpsLogo from './assets/education_logo/vps_logo.png';
+import school from './assets/education_logo/school.webp';
+import inter from './assets/education_logo/inter.jpg';
+import college from './assets/education_logo/college.png';
 
 // Project Section Logo's
 import canteen from './assets/work_logo/canteen.png';
@@ -156,45 +156,36 @@ export const SkillsInfo = [
   //     ],
   //   },
   // ];
-  
-  // export const education = [
-  //   {
-  //     id: 0,
-  //     img: glaLogo,
-  //     school: "GLA University, Mathura",
-  //     date: "Sept 2022 - July 2024",
-  //     grade: "7.81 CGPA",
-  //     desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-  //     degree: "Master of Computer Applications - MCA",
-  //   },
-  //   {
-  //     id: 1,
-  //     img: bsaLogo,
-  //     school: "BSA College, Mathura",
-  //     date: "Sept 2018 - Aug 2021",
-  //     grade: "73.2%",
-  //     desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-  //     degree: "Bachelor of Science - BSC (Computer Science)",
-  //   },
-  //   {
-  //     id: 2,
-  //     img: vpsLogo,
-  //     school: "Vatsalya Public School Govardhan, Mathura",
-  //     date: "Apr 2017 - March 2018",
-  //     grade: "78%",
-  //     desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-  //     degree: "CBSE(XII) - PCM with Computer Science",
-  //   },
-  //   {
-  //     id: 3,
-  //     img: vpsLogo,
-  //     school: "Vatsalya Public School Govardhan, Mathura",
-  //     date: "Apr 2015 - March 2016",
-  //     grade: "87.5%",
-  //     desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-  //     degree: "CBSE(X), Science with Computer Application",
-  //   },
-  // ];
+export const education = [
+  {
+    id: 0,
+    img: college,
+    school: "K.R. Mangalam University, Gurugram",
+    date: "Sept 2023 - July 2027",
+    grade: "9.0 CGPA",
+    desc: "I am currently pursuing my Bachelor's degree (B.Tech) in Computer Science from K.R. Mangalam University, Gurugram. During my studies, I have been developing a strong foundation in programming, software development, data structures, algorithms, and computer science principles. I have also worked on projects and explored modern technologies such as web development, databases, and emerging fields of technology. My time at K.R. Mangalam University has been instrumental in shaping my technical expertise and professional growth.",
+    degree: "Bachelor of Technology - B.Tech (Computer Science)",
+  },
+  {
+    id: 1,
+    img: inter,
+    school: "RLSY College",
+    date: "Apr 2020 - March 2022",
+    grade: "89.4%",
+    desc: "I completed my Intermediate education from RLSY College in the Science stream, focusing on subjects like Physics, Chemistry, Mathematics, and Computer Science. This period provided me with a solid academic background and helped me build analytical and problem-solving skills that became the foundation for my higher studies in computer science.",
+    degree: "Intermediate - Science Stream",
+  },
+  {
+    id: 2,
+    img: school,
+    school: "Sacred Heart High School",
+    date: " -- - March 2020",
+    grade: "88.2%",
+    desc: "I completed my high school education at Sacred Heart High School, where I studied under the CBSE curriculum. My schooling years helped me strengthen my fundamentals in academics and instilled discipline, curiosity, and dedication that continue to guide me in my educational journey.",
+    degree: "CBSE (X)",
+  },
+];
+
   
 export const projects = [
   {
