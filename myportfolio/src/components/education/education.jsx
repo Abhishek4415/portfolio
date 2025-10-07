@@ -10,6 +10,7 @@ export default function education() {
           A showcase of the projects I have worked on, highlighting my skills and experience in various technologies
         </p>
         
+        
       </div>
     </section>
 
